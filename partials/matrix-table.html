@@ -1,0 +1,106 @@
+<style>
+.viewer
+{
+    margin:1em; 
+    max-width: 800px; 
+    background: rgba(255,255,255,.8);
+    font-family: arial,sans-serif;
+    position: relative;
+}
+.viewer .matrix-title {
+    margin:0;
+    padding: .3em;
+    background: rgba(255,255,255,.5); 
+    border: 1px solid rgba(0,0,0,.3);
+    border-bottom: none;
+    text-indent: 1em;
+    } 
+.matrix 
+{
+    background: rgba(255,255,255,1);
+    width: 100%;
+    border-collapse: collapse;
+}
+.matrix  th
+{
+    height: 40px;
+    min-width: 100px;
+     background: rgba(255,255,205,.5);
+    border:1px solid rgba(0,0,0,.3);
+    padding: 5px;
+    font-size: 1.1em;
+    font-weight: 400;
+}	 
+.matrix .columns th 
+{
+    background: rgba(255,255,205,1);
+}
+.matrix  th.row_tt
+{
+    text-align: left;
+    font-family: arial,sans-serif;
+     text-indent: 1em;
+    border-right: 1px solid rgba(0,0,0,.3);
+    border-bottom:1px solid rgba(0,0,0,.3);
+}	 
+.matrix  td
+{
+    min-height: 30px;
+     border:1px solid rgba(0,0,0,.3);
+    text-align: center;
+}
+/* unused */
+.matrix .status-a
+{
+    background: rgba(255,0,0,.5);
+}
+.matrix .status-b
+{
+    background:rgba(0,100,0,.5);
+}	 
+.matrix .status-c
+{
+	background: rgba(0,50,100,.5);
+}
+</style>
+
+	<div class="viewer">	
+        <h3 class="matrix-title"> Project Domain.com</h3>	
+	<table class="matrix" id="matrix-01">
+	<tr class="columns">
+	<th id="zero" class="blank_logo">Build 0.2.2</th>
+	<th> Firefox </th>
+	<th>Chrome</th>
+	<th>  IE </th>
+	<th>Mobile </th>
+	</tr>
+	<tr>
+	<th class="row_tt">Frontpage </th>
+	<td class="row_data "> Good </td>
+	<td class="row_data "> Bad</td>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data ">Good  </td>	
+	</tr>
+	<tr>
+	<th class="row_tt">Article</th>
+	<td class="row_data ">Good  </td>
+	<td class="row_data "> Good </td>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data "> Bad</td>	
+	</tr>	
+		<tr>
+	<th class="row_tt">Contact</th>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data "> Good </td>	
+	</tr>
+	<tr>
+	<th class="row_tt">Checkout </th>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data "> Unknown</td>
+	<td class="row_data ">Good  </td>
+	<td class="row_data "> Bad</td>	
+	</tr>
+	</table>
+	</div>

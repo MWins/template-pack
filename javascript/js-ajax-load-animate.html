@@ -1,0 +1,45 @@
+ <script src="/services/resources/js/jquery-1.11.1.min.js"></script>
+<a href="" id="clickme">Trigger</a>
+
+<div class="contain">
+<div id="box" class="box">
+    <img src="http://i.imgur.com/EWLWdxc.jpg" />
+</div>
+
+</div>    <div id="loader"></div>
+    <div id="text"></div>
+    
+ <style>
+ 
+ .contain {
+ 
+}
+
+.box { width: 150px; height: 150px; border: 1px solid; overflow:hidden; position:relative;}
+
+</style>
+
+<script>
+
+
+$( "#clickme" ).click(function() {
+   
+$('#loader').prepend('<img src="https://www.werkenvoornederland.nl/static/assets/img/loader.gif"  />');
+    
+$( "#box" ).animate({
+opacity: 0.75,
+left: "+=30",
+height: "300px",
+width: "300px"
+}, 5000, function() {
+// Animation complete.
+    $('#loader').html('');
+$('#text').hide().prepend('<h4>Welcome To Repeat</h4><p>Text describing our garbage truck project. </p>').fadeIn(1000);
+});
+        
+    
+    return false;
+});
+
+
+</script>

@@ -1,0 +1,5 @@
+/* Remove the border from the top row. */
+table tbody tr:first-child td { border-top: none; }
+ 
+/* Remove the border from the left column. */
+table tbody tr td:first-child { border-left: none; }

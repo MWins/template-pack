@@ -1,0 +1,49 @@
+<!-- template for the 'this site uses cookies' popup which is required by the EU 
+
+can combine with : https://github.com/wimagguc/jquery-eu-cookie-law-popup
+
+css sample 
+
+**>>
+.eu-cookie { width: 100%; position: absolute ; top : 0 ; left: 0; text-align:center; background: rgba(0,0,0,.12); border-bottom: 1px solid #333; color: #333; padding: .25em; min-height: 100px;  }
+ 
+ .eu-cookie h4 {margin: .2em; font-size: 1.3em; }
+  .eu-cookie p {margin: .2em; font-size: 1.1em; }
+/* minimal
+https://github.com/ubuwaits/css3-buttons
+*******************************************************************************/
+.eu-cookie button.minimal {
+  background: #e3e3e3;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  box-shadow: inset 0 0 1px 1px #f6f6f6;
+  color: #333;
+  font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+  padding: 8px 0 9px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 150px; }
+  .eu-cookie button.minimal:hover {
+    background: #d9d9d9;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer; }
+ .eu-cookie button.minimal:active {
+    background: #d0d0d0;
+    -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    box-shadow: inset 0 0 1px 1px #e3e3e3;
+    color: #000; }
+<<**
+-->
+
+
+<div class="eu-cookie" id="euc">
+<h4>This site uses cookies </h4>
+<p> This site stores information on your device . Commonly referred to as cookies. We use cookies to ensure that we give you the best experience on our website. 
+</p>
+
+<p><button type="button" class="minimal" onclick="document.getElementById('euc').style.display ='none';" >OK</button>
+</p>
+</div>

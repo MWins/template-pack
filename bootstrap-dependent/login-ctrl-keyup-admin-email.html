@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html  lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title> Profile - Template </title>
+<link rel="stylesheet" type="text/css" href="/services/resources/css/bootstrap.min.css" />
+ <script src="/services/resources/js/jquery-1.11.1.min.js"></script><script src="/services/resources/js/bootstrap.min.js"></script>
+ 
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <style>
+</style>
+</head> 
+<script type = "text/javascript">
+$( document ).ready(function() {
+   $( "body" ).keyup(function( event) {
+ if ( event.which == 17 ) {
+$('#login_modal').modal('toggle');
+
+event.preventDefault();
+}
+   });
+});
+</script>
+<body>
+<div class="modal fade" id="login_modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Admin  Auth Login</h4>
+      </div>
+      <div class="modal-body">
+        <p>An email has been sent to the admin email, please check your email.</p>
+      </div>
+ 
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
