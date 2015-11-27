@@ -1,5 +1,4 @@
 # template-pack
-Collection of HTML/CSS/JS/PHP 
 
 ### CSS snippets : 
 
@@ -58,7 +57,7 @@ print/ is directory with : print-page-breaks.css , print-urls.css
 
 
 
-
+Believe most of these have attribution. I don't claim ownership of any of this code. It's a collection of best practices gained from different sources. 
 
 
 
