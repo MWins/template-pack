@@ -25,10 +25,11 @@ Description: Template Pack is a collection of snippets for Web Development
 * simple-drop-down.css - css for simple drop down, single level
 * tables-border-overlap.css - removes excess borders on CSS style
 * visuallyHidden.aria.css - Alternative to using diplay: none 
-* ------
 
 
-print/ is directory with : print-page-breaks.css , print-urls.css
+####print/  
+* print-page-breaks.css -Force page break 
+* print-urls.css - print href instead of text
 
 ### Javascript
 * phone-spam-prevent.htm - Javascript add phone number to DIV.
