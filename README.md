@@ -22,6 +22,7 @@ Description: Template Pack is a collection of snippets for Web Development
 * inner-box-shadow.css - Box Shadow example
 * media-queries.css - collected media queries
 * polariod.css - fake a polariod image look
+* simple-drop-down.css - css for simple drop down, single level
 * tables-border-overlap.css - removes excess borders on CSS style
 * visuallyHidden.aria.css - Alternative to using diplay: none 
 * ------
@@ -54,6 +55,7 @@ print/ is directory with : print-page-breaks.css , print-urls.css
 * dark-panel.html - Dark Panel with big buttons
 * footer.html - Simple basic footer
 * matrix-table.html - Matric Cross Reference table (Pages - Browsers is content)
+* simple-drop-down.html - basic single level drop down menu example
 * toolbar-page.html - Toolbar (gray) across top of parent element, page in this case.
 * toolbar-panel.html - Same toolbar but within a smaller Panel
 
