@@ -1,0 +1,91 @@
+<! DOCTYPE html>
+<html><head><title>Invoice HTML 5 Example</title>
+<link rel="stylesheet" type="text/css" href="html5-invoice.css" media="all" />
+</head>
+<body>
+<header>
+	<h1>company.com</h1>	
+    <p> 400 Albaster Street <br> Reno,NV 45555 <br> 999-222-9999 <br> info@company.com </p>
+</header>
+    <table>
+        <tr><th>Invoice #</th> <th>Due Date </th><th>Issue Date</th><th>Customer #</th><th>Status</th></tr>
+        <tr><td>22199881</td><td> 1/31/2020  </td><td>12/12/2015</td><td>4155737 </td><td>Unpaid</td></tr>
+    </table>
+<section class="customer_data">
+	<div class="ship_col">	
+        <h3>Shipping Information </h3>
+		<ul>
+            <li>Fred Smith</li>
+            <li>2955 Oak Rd</li>
+            <li>Some, IA 55555</li>
+            <li>US</li>
+            <li>Daytime Phone: 79077741288</li>
+		</ul>
+	</div>
+	<div class="bill_col">
+        <h3>Billing Information</h3>
+        <ul>
+            <li>Fred Smith</li>
+            <li>2955 Oak Rd</li>
+            <li>Some, IA 55555</li>
+            <li>US</li>
+            <li>Daytime Phone: 79077741288</li>
+            <li>Email: foo@bellsouth.net</li>
+        </ul>
+	</div>	
+</section>
+<section class="register" >
+<table>	
+<thead>
+    <tr >
+        <th>Label</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Qty </th>
+        <th>Disc.</th>
+        <th class="justify">Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+         <td>101-1 </td>
+        <td>.COM Domain Name Registration - 1 Year</td>
+        <td>$8.95</td>
+        <td>1</td>
+        <td>$3.96</td>
+        <td class="justify">$4.24</td>
+    </tr>
+    <tr>	
+        <td>7001-1 </td>
+        <td>Private Registration Services </td>
+        <td>$12.00 </td>
+        <td>1</td>
+        <td>$.00 </td>
+        <td class="justify">$7.95</td>
+    </tr>
+    </tbody>
+</table>
+</section>
+
+	<section class="totals">
+<p class="remit"> Please remit payment to : <br>
+ company.com <br>
+ 400 Albaster Street <br>
+ Reno,NV 45555
+</p>
+        <ul class="text_labels">
+            <li>Subtotal: </li>
+            <li>Shipping & Handling:</li>
+            <li>Tax:</li>
+            <li>Total (US Dollars):</li>
+        </ul>
+        <ul class="amounts">
+            <li>$12.19</li>
+            <li>$.00</li>
+            <li>$.00</li>
+            <li>$12.19</li>
+        </ul>
+	</section>
+
+</body>
+</html>
