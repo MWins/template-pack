@@ -1,12 +1,12 @@
+# template-pack
+
 ---
 language: HTML/CSS/JS/PHP
 contributors:
     - ["Malcolm Winslett", "https://github.com/MWins"]
-filename: readme.md
 description: Template Pack is a collection of snippets for Web Development
 ---
 
-# template-pack
 
 ### CSS snippets : 
 
