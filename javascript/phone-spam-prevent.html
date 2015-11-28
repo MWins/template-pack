@@ -1,0 +1,18 @@
+<!-- dynamically adds a TEL A link to a page. Uses the id 'phone'. Modification is encouraged and being 
+less clear is ideal since spammers will adapt to standardized practices 
+-->
+
+<div class="phone" id="phone"></div>
+
+<script>
+var number = '9062348422';
+var display ='';
+for(i=0;i<number.length;i++) 
+    {
+    if(i == 3) display = display + '-' ;
+    if(i== 6) display = display +'-';
+    display = display + number[i];    
+    }
+var holder = document.getElementById('phone');
+holder.innerHTML = '<a href="tel:+1'+number+'">'+display+'</a>';
+</script>
