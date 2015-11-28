@@ -1,7 +1,7 @@
 ---
-project name : template-pack
-language: HTML/CSS/JS/PHP
-description: Template Pack is a collection of snippets for Web Development
+Project Name : template-pack
+Language: HTML/CSS/JS/PHP
+Description: Template Pack is a collection of snippets for Web Development
 ---
 
 
