@@ -1,8 +1,6 @@
 ---
 project name : template-pack
 language: HTML/CSS/JS/PHP
-contributors:
-    - ["Malcolm Winslett", "https://github.com/MWins"]
 description: Template Pack is a collection of snippets for Web Development
 ---
 
