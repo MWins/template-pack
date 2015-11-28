@@ -24,9 +24,13 @@ Description: Template Pack is a collection of snippets for Web Development
 * polariod.css - fake a polariod image look
 * tables-border-overlap.css - removes excess borders on CSS style
 * visuallyHidden.aria.css - Alternative to using diplay: none 
+* ------
+
 
 print/ is directory with : print-page-breaks.css , print-urls.css
 
+### Javascript
+* phone-spam-prevent.htm - Javascript add phone number to DIV.
 
 ### PHP 
 
