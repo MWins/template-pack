@@ -1,3 +1,10 @@
+---
+language: HTML/CSS/JS/PHP
+contributors:
+    - ["Malcolm Winslett", "https://github.com/MWins"]
+filename: readme.md
+---
+
 # template-pack
 
 ### CSS snippets : 
