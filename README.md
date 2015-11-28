@@ -4,6 +4,10 @@ Language: HTML/CSS/JS/PHP
 Description: Template Pack is a collection of snippets for Web Development
 ---
 
+#### Updates
+* Added simple Dropdown HTML & CSS
+* Added html5-invoice.html and html5-invoice.css 
+
 
 
 ### CSS snippets : 
