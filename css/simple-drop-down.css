@@ -1,0 +1,6 @@
+nav { font-family: sans-serif; font-size: 1.1em; border: solid; width: 25%;}
+nav ul { list-style:none; border: 1px solid rgba(0,0,0,.3);  }
+nav li { background: rgba(70,70,70,.6); padding: .3em; }
+nav li a { color: red; }
+
+/* should remove color/font info */
