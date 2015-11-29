@@ -1,15 +1,39 @@
 <!-- CSS
-nav { font-family: sans-serif; font-size: 1.1em; border: solid; width: 25%;}
-nav ul { list-style:none; border: 1px solid rgba(0,0,0,.3);  }
-nav li { background: rgba(70,70,70,.6); padding: .3em; }
-nav li a { color: red; }
+.ddMenu {
+    list-style:none;
+
+}
+.ddMenu li 
+{
+    display: block;
+    float:left;
+    width: 8em; 
+    margin: .2em;    
+}
+
+.ddMenu li li
+{ 
+    /* these are the drop down menu items */
+    display:none;
+    margin-left: 0;      
+}
+.ddMenu li ul
+{ 
+ padding-left: 0;    
+}
+.ddMenu li:hover li 
+{
+     display: block;
+}
 
 -->
-<nav>
+<nav class="ddMenu" role="navigation">
 <ul>
-<li><a href=""> Fooooo</a></li>
-<li><a href="">Boooo</a></li>
+<li> Home </li>
+<li> Products 
+   <ul><li> Cars</li><li>Trains</li><li>Planes</li></ul>
+</li>
+<li> Contact </li>
 </ul>
-<p> All links are to external sites</p>
 </nav>
 
