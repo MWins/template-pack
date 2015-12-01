@@ -5,6 +5,7 @@ Description: Template Pack is a collection of snippets for Web Development
 ---
 
 #### Updates
+* Added panel.html and panel.css
 * Added simple Dropdown HTML & CSS
 * Added html5-invoice.html and html5-invoice.css 
 * Add htaccess for disallowing XML file downloads
