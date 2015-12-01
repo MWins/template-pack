@@ -1,0 +1,32 @@
+.panel 
+{
+  width: 400px;
+  border: solid;
+  min-height: 200px;
+  position: relative;
+   display:flex;
+  flex-direction: column;
+}
+.panel header {
+  display:flex;
+  width: 100%;
+}
+.panel h1 
+{
+  margin: 0; padding:0;
+  flex-basis: 70%;
+}
+.panel .ctrls {text-align:right;
+flex-basis: 30%;
+  padding-right: 3px; 
+}
+
+.panel .viewer {
+  align-self: flex-center;
+  flex-grow:3;
+  
+}
+.panel footer {
+  
+  align-self: flex-end;
+}
