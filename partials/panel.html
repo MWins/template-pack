@@ -1,36 +1,65 @@
 <!-- panel    panel.css  or uncomment below 
 <style> 
-
 .panel 
 {
   width: 400px;
-  border: solid;
-  min-height: 200px;
+  border: solid 1px;
+  min-height: 250px;
   position: relative;
-   display:flex;
+  display:flex;
   flex-direction: column;
+}
+.panel a:link { 
+text-decoration: none; 
 }
 .panel header {
   display:flex;
   width: 100%;
+  border: 1px solid rgba(33,33,33,.3);
 }
 .panel h1 
 {
-  margin: 0; padding:0;
+  margin: 0; padding:0 0 .1em 0;
+  text-indent: .1em;
   flex-basis: 70%;
 }
 .panel .ctrls {
-text-align:right;
+  text-align:right;
 flex-basis: 30%;
-  padding-right: 3px; 
+  padding-right: .3em;
+}
+.panel .ctrls a:link {
+  display:inline-block;
+  margin: .2em;
+  border: 1px solid rgba(33,33,33,.4);
+  border-radius: 90px;
+  padding: 0 .2em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.panel .ctrls a:hover { 
+  background: rgba(33,33,33,.5);
+  color: rgba(255,255,255,1);
+  border: 1px solid rgba(33,33,33,.9);
+}
+.panel nav {
+  padding: .1em;
+  border: 1px solid rgba(33,33,33,.2);
+  border-left: none; border-right: none;
+  
 }
 .panel .viewer {
   align-self: flex-center;
   flex-grow:3;  
+  padding: .3em;
 }
 .panel footer {  
   align-self: flex-end;
+  padding-right: .3em;
+  border-top: 1px solid rgba(33,33,33,.3);
+  width: 100%;
 }
+
 
 </style>
 -->
