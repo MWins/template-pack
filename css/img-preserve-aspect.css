@@ -1,0 +1,13 @@
+/*
+ image fills container width and retains height 
+ class name?
+*/
+img {
+max-width:100%;
+height:auto;
+}
+.full-aspect 
+{
+max-width:100%;
+height:auto;
+}
