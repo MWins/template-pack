@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<invoice>
+    <company>
+        <name> ACME </name>
+        <contact>W. Coyote </contact>
+        <email>coyotewe@acme.com</email>
+    </company>
+    <client>
+        <name> E. Fudd </name>
+        <email>efudd@domain.com</email>
+        <project>Wabbit Capture</project>
+    </client>
+    <lineitems>
+        <lineitem>
+            <description> Hunting </description>
+            <quantity>2</quantity>
+            <hourly>100</hourly>
+            <total>200</total>
+         </lineitem>
+        <lineitem>
+            <description> Tracking </description>
+            <quantity>1</quantity>
+            <hourly>100</hourly>
+            <total>100</total>
+         </lineitem>
+    </lineitems>
+</invoice>
