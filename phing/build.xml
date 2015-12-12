@@ -1,1 +1,11 @@
 
+<?xml version="1.0"?>
+<project default="build" name="Customize">
+    <!-- ============================================  -->
+    <!-- Target: build                                 -->
+    <!-- ============================================  -->
+<target name="build"  depends="" >
+<echo>Customize your build process </echo>
+zero
+</target>
+</project>
