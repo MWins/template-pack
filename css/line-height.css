@@ -1,0 +1,6 @@
+/*  http://www.phpied.com/css-last-line-height-ever-need/
+golden ratio
+*/
+html {
+  line-height: 1.61803398875;
+}
