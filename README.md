@@ -73,7 +73,10 @@ Description: Template Pack is a collection of snippets for Web Development
 * rental-profile.html - partial rental property profile with google map code
 
 
+### Project Managment 
 
+* Project Reporting Form - RAG - (HTML/CSS is from Word export. Needs conversion to HTML5)
+* Project Status Simple Example - Basic project update. Does not include RAG. 
 
 
 Believe most of these have attribution. I don't claim ownership of any of this code. It's a collection of best practices gained from different sources. 
