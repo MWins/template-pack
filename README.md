@@ -66,7 +66,7 @@ Description: Template Pack is a collection of snippets for Web Development
 * toolbar-page.html - Toolbar (gray) across top of parent element, page in this case.
 * toolbar-panel.html - Same toolbar but within a smaller Panel
 
-### Bootstrap Dependent 
+### Bootstrap 3 Dependent 
 
 * login-ctrl-keyup-admin-email.html - Control Key triggers Modal for task (was email)
 * profile.html - partial user profile 
