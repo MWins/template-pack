@@ -75,7 +75,7 @@ Description: Template Pack is a collection of snippets for Web Development
 
 ### Project Managment 
 
-* Project Reporting Form - RAG - (HTML/CSS is from Word export. Needs conversion to HTML5)
+* Project Reporting Form - RAG - (~~HTML/CSS is from Word export.~~ Should reduce tables. )
 * Project Status Simple Example - Basic project update. Does not include RAG. 
 
 
