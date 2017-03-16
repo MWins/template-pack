@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Change Control Sheet
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow">
+    <style type="text/css">.project-form {
+    max-width: 750px;
+    font-family: tahoma;
+    font-size: 16px;
+}
+.project-form__header {} .project-form__row {
+    border: 1px solid #000;
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.project-form__row__header,
+.project-form__subrow__header {
+    font-weight: normal;
+    margin: 0em;
+    text-indent: .5em;
+    flex-grow: 1;
+}
+.project-form__row__content {
+    min-height: 2em;
+    flex-grow: 3;
+}
+.project-form__row--horizontal {
+    border: 1px solid #000;
+    border-bottom: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.project-form__header--horizontal {
+    font-weight: normal;
+    margin: 0em;
+    text-indent: .5em;
+    flex-grow: 1;
+}
+.project-form__content--horizontal {
+    border-right: 1px solid #000;
+    min-height: 2em;
+    flex-grow: 2;
+}
+.cap {
+    border-bottom: 1px solid #000;
+}
+.end {
+    border-right: none;
+}
+.project-form table {
+    border: 1px solid #000;
+    margin-top: 1em;
+    border-collapse: collapse;
+    width: 100%;
+}
+.project-form table th {
+    border: 1px solid #000;
+    padding: .3em;
+    text-align: left;
+    background: rgba(150, 150, 150, .2);
+}
+.project-form table td {
+    border: 1px solid #000;
+    padding: .3em;
+}
+.data-cell {
+    min-height: 4em;
+    min-width: 260px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="project-form">
+      <h3 class="project-form__header">
+        Change Control Sheet
+      </h3>
+      <div class="project-form__row--horizontal">
+        <h4 class="project-form__header--horizontal">
+          Project Title
+        </h4>
+        <div class="project-form__content--horizontal"></div>
+        <h4 class="project-form__header--horizontal">
+          Project Number
+        </h4>
+        <div class="project-form__content--horizontal end"></div>
+      </div>
+      <div class="project-form__row cap">
+        <h4 class="project-form__row__header">
+          Project Manager
+        </h4>
+        <div class="project-form__row__content"></div>
+      </div>
+      <table>
+        <tr>
+          <th colspan="3">
+            CHANGE REQUEST
+          </th>
+        </tr>
+        <tr>
+          <td>
+            Originator<br>
+            Phone:
+          </td>
+          <td>
+            Date of request
+          </td>
+          <td>
+            Change request no.
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Items to be changed
+          </td>
+          <td>
+            Reference(s)
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="data-cell"></div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            Description of change (reasons for change, benefits, date required)
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="data-cell"></div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            Estimated cost, and time to implement (quotation attached? Yes | No )
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="data-cell"></div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            Priority / Constraints (impact on other deliverables, implications of not proceeding, risks)
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <div class="data-cell"></div>
+          </td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th colspan="4">
+            CHANGE EVALUATION
+          </th>
+        </tr>
+        <tr>
+          <td colspan="2">
+            What is affected
+            <div class="data-cell"></div>
+          </td>
+          <td colspan="2" rowspan="2">
+            Work required (resources, costs, dates)
+            <div class="data-cell"></div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Related change requests
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Name of evaluator
+          </td>
+          <td>
+            Date evaluated
+          </td>
+          <td>
+            Signature
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
