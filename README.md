@@ -80,7 +80,7 @@ Description: Template Pack is a collection of snippets for Web Development
 * Project Business Case Form
 * Change Control Sheet 
 * Project Status Simple Example - Basic project update. Does not include RAG. 
-
+* Small Project Requirements Specification - WIP - Condensing the full process into a viable workflow for small projects.
 
 Believe most of these have attribution. I don't claim ownership of any of this code. It's a collection of best practices gained from different sources. 
 
